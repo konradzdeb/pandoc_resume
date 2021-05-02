@@ -1,0 +1,23 @@
+/*
+ * The CSS proposes an alternative set of fonts and colours giving the CV 
+ * a more classicial flavours. The CSS is based on:
+ * - the available cv/styles/chmduquesne.css 
+ * - Classical Typography examples (https://wdexplorer.com/20-examples-beautiful-css-typography-design/)
+ *
+ */
+
+ body {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    max-width: 800px;
+    margin: auto;
+    background: #FFFFFF;
+    color: black;
+    padding: 10px 10px 10px 10px;
+}
+
+h1 {
+    font-size: 30px;
+    color: #000000;
+    text-align:center;
+    margin-bottom:15px;
+}
