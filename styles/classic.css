@@ -1,6 +1,7 @@
+<style type="text/css">
 /*
  * The CSS proposes an alternative set of fonts and colours giving the CV 
- * a more classicial flavours. The CSS is based on:
+ * a more classical flavours. The CSS is based on:
  * - the available cv/styles/chmduquesne.css 
  * - Classical Typography examples (https://wdexplorer.com/20-examples-beautiful-css-typography-design/)
  *
@@ -21,3 +22,66 @@ h1 {
     text-align:center;
     margin-bottom:15px;
 }
+/* Titles of categories */
+h2 {
+    /* This is called "sectioncolor" in the ConTeXt stylesheet. */
+    color: #397249;
+}
+/* There is a bar just before each category */
+h2:before {
+    content: "";
+    display: inline-block;
+    margin-right:1%;
+    width: 16%;
+    height: 10px;
+    /* This is called "rulecolor" in the ConTeXt stylesheet. */
+    background-color: #9CB770;
+}
+/* h2:hover { */
+/*     background-color: #397249; */
+/*     color: #FFFFFF; */
+/*     text-shadow: 1px 1px 1px #333; */
+/* } */
+
+/* Definitions */
+dt {
+    float: left;
+    clear: left;
+    width: 17%;
+    font-weight: bold;
+}
+dd {
+    margin-left: 17%;
+    margin-bottom:7px;
+}
+p {
+    margin-top:0;
+    margin-bottom:7px;
+}
+
+/* Blockquotes */
+blockquote {
+    text-align: center
+}
+
+/* Links */
+a {
+    text-decoration: none;
+    color: #397249;
+}
+a:hover, a:active {
+    background-color: #397249;
+    color: #FFFFFF;
+    text-decoration: none;
+    text-shadow: 1px 1px 1px #333;
+}
+
+/* Horizontal separators */
+hr {
+    color: #A6A6A6;
+}
+
+table {
+    width: 100%;
+}
+</style>
