@@ -3,9 +3,7 @@ Dr Konrad Zdeb
 
 ----
 
->  In this style, the resume starts with a blockquote, where
->  you can briefly list your specialties, or include a salient
->  quote. Ending a line with a backslash forces a line break.
+>  Experienced Senior Manager with background in consultancy and finance, leading on development of multi-stakeholder projects and advanced development and design experience.
 
 ----
 
