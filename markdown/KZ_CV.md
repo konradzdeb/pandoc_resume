@@ -10,13 +10,11 @@ Dr Konrad Zdeb
 Experience
 ----------
 
-**Your Most Recent Work Experience:**
+**Decision Science, Senior Manager, Virgin Money UK**
 
-Short text containing the type of work done, results obtained,
-lessons learned and other remarks. Can also include lists and
-links:
+Leading on Decision Science team and being responsible for delivery of multiple projects
 
-* First item
+* Delivery of som
 
 * Item with [link](http://www.example.com). Links will work both in
   the html and pdf versions.
@@ -39,7 +37,6 @@ Education
     HomeTown (HomeTown)
 
     *Minor: Awesomeology*
-
 
 
 Technical Experience
