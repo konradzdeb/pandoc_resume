@@ -14,7 +14,7 @@ Experience
 
 Leading on Decision Science team and being responsible for delivery of multiple projects
 
-* Delivery of som
+* Introducing efficiency through automation to legacy solutions (SAS, Oracle) by incorporating modern Data Science toolchain
 
 * Item with [link](http://www.example.com). Links will work both in
   the html and pdf versions.
@@ -39,8 +39,8 @@ Education
     *Minor: Awesomeology*
 
 
-Technical Experience
---------------------
+Skills and Achievements
+-----------------------
 
 My Cool Side Project
 :   For items which don't have a clear time ordering, a definition
@@ -58,13 +58,7 @@ Open Source
     your idea...
 
 Programming Languages
-:   **first-lang:** Here, we have an itemization, where we only want
-    to add descriptions to the first few items, but still want to
-    mention some others together at the end. A format that works well
-    here is a description list where the first few items have their
-    first word emphasized, and the last item contains the final few
-    emphasized terms. Notice the reasonably nice page break in the pdf
-    version, which wouldn't happen if we generated the pdf via html.
+:   **R/Python** Vast experience in delivering complex analytical and Data Science projects using R/Python and utilising both languages across heterogeneous architectures (RDBMS, Hive, Spark). Open source contributions to R community (utility R packages, [R in busines blog](https://konradzdeb.netlify.app))
 
 :   **second-lang:** Description of your experience with second-lang,
     perhaps again including a [link] [ref], this time placing the url
