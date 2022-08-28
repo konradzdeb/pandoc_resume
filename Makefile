@@ -41,6 +41,13 @@ rtf: init
 		pandoc --standalone $$SMART $$f --output $(OUT_DIR)/$$FILE_NAME.rtf; \
 	done
 
+html-docx: html
+	for f in $(OUT_DIR)/*.html; do \
+		FILE_NAME=`basename $$f | sed 's/.html//g'`; \
+		echo $$FILE_NAME_two.docx; \
+		pandoc --standalone $$SMART $$f --output $(OUT_DIR)/$$FILE_NAME.two.docx; \
+	done
+
 init: dir version
 
 dir:
