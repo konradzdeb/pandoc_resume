@@ -28,7 +28,7 @@ $endif$
                  topspace=10mm, bottomspace=20mm,
                  header=0mm, footer=0mm]
 
-%\setuppagenumbering[location={footer,center}]
+\setuppagenumbering[location={footer,center}]
 
 \setupbodyfont[11pt, helvetica]
 
@@ -65,9 +65,19 @@ $endif$
 
 \setupthinrules[width=30em] % width of horizontal rules
 
+% Controles elements relevant for preamble
+% List of options for setupalign:
+% normal *or* width *or* yes	justified alignment
+% middle	centered lines
+% flushleft *or* no *or* right	left-aligned (The right is from 'ragged-right'. Don't use it.)
+% flushright *or* left	right-aligned (Again, better to not use left.)
+% inner	Flush to inner margin.
+% outer	Flush to outer margin.
+% disable	Used only for oneliners. Equivalent to flushleft, but something called \parfillskip is set to zero.
+% last	Justified, with last line centered.
 \setupdelimitedtext
   [blockquote]
-  [before={\setupalign[middle]},
+  [before={\setupalign[normal]},
    indentnext=no,
   ]
 
@@ -108,3 +118,4 @@ $for(include-after)$
 $include-after$
 $endfor$
 \stoptext
+
