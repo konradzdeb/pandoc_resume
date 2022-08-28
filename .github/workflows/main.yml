@@ -7,28 +7,24 @@ on:
   # Triggers the workflow on push or pull request events but only for the master branch
   push:
     branches: [ master ]
+    paths:
+      - 'markdown/**'
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
 
 jobs:
-  build:
+  build-resume:
     runs-on: ubuntu-latest
-    container:
-      image: docker.pkg.github.com/mszep/pandoc_resume/resume_builder:latest
-      credentials:
-        username: ${{ github.actor }}
-        password: ${{ secrets.GITHUB_TOKEN }}
-
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v2
       
       - name: Test directory contents
-        run: ls -al
+        run: 'ls -al'
 
       - name: Build resume
-        run: make
+        uses: ./actions
 
       - name: Upload a Build Artifact
         uses: actions/upload-artifact@v2.2.3
