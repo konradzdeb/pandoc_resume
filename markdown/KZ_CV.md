@@ -12,7 +12,13 @@ Dr Konrad Zdeb
 Experience
 ----------
 
-2019 -- now
+2022 -- now
+: **Data Science Lead, NatWest**
+
+    * Leading team of data scientists within NatWest, Fraud
+    * Facilitating data science recruitment
+
+2019 -- 2022
 :   **Decision Science, Senior Manager, Virgin Money UK December**
 
     * Responsible for introducing data science capability within the Group Business Intelligence function for the organisation
@@ -58,8 +64,8 @@ Education
     Third year spent as Erasmus exchange student at Örebro Universitet, Sweden
 
 
-Selected Courses, Projects and Conferences
-------------------------------------------
+Professional Development
+------------------------
 
 Professional Development
 :   November 2018 - Applied Machine Learning in Python; University of Michigan (via Coursera)
@@ -72,6 +78,7 @@ Professional Development
 :   March 2014/2015 - Data Science Specialization; John Hopkins University, (via Coursera)
 
 Presentations / Mentions
+:  Fraud Hackathon finalist
 :  Zdeb, K., (2021, July). *Member Spotlight: Konrad Zdeb, Senior Manager - Decision Science, Virgin Money UK* Conversation with Paul McMillan, Available at: [community.thedatalab.com/news/459365](https://community.thedatalab.com/news/459365)
 :  Zdeb, K., (2017, September). *Improving BI Delivery with Shiny: Interactive Mortgage Book Visualisation* Presented at Enterprise Applications of R Language, London.
 
@@ -80,7 +87,7 @@ Computer/Technical Skills
 
 Data Science
 :   **R/Python** Vast experience in delivering complex analytical and Data Science projects using R/Python and utilising both languages across heterogeneous architectures (RDBMS, Hive, Spark). Open source contributions to R community (utility R packages, [R in busines blog](https://konradzdeb.netlify.app))
-:   Significant experience in SAS and SQL
+:   Significant experience in SAS and SQL including PL/SQL, HiveQL
 :   Experience in developing ML/Data pipelines using Hadoop ecosystem.
 
 Other
@@ -91,7 +98,7 @@ Other
 Other Competences / Volunteering
 ---------------------------------
 
-Foreign Languages
+Languages
 :   Polish: fluent; Spanish: basic competency
 
 Other
